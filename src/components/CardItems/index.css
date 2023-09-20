@@ -1,0 +1,117 @@
+@media screen and (max-width: 576px) {
+  .list {
+    min-width: 80%;
+    margin-bottom: 2%;
+  }
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 50%;
+  width: 30%;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  padding: 2%;
+}
+.card-heading {
+  color: #2f2f2f;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 200%;
+}
+@media screen and (min-width: 680px) and (max-width: 990px) {
+  .star {
+    padding-top: 0%;
+    /* border: 1px solid red; */
+  }
+}
+@media screen and (max-width: 1000px) {
+  .card-heading {
+    font-size: 120%;
+  }
+  .star {
+    padding-top: 7%;
+    /* border: 1px solid pink; */
+  }
+  .mrp {
+    font-size: 60%;
+  }
+  .amount {
+    font-size: 60%;
+  }
+  .rating-container {
+    font-size: 80%;
+  }
+  .card-tests {
+    font-size: 80%;
+  }
+}
+.card-rating {
+  color: #2f2f2f;
+  font-family: 'roboto';
+  font-weight: bold;
+  margin-right: 2%;
+  /* font-size: 100%; */
+}
+.star {
+  margin-right: 2%;
+  width: 8%;
+  height: 8%;
+  margin-top: 4%;
+  /* border: 1px solid red; */
+}
+.card-reviews {
+  color: #6e6e6e;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.card-tests {
+  color: #2f2f2f;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.mrp {
+  color: #6e6e6e;
+  font-family: 'roboto';
+  font-weight: 500;
+
+  /* border: 1px solid pink; */
+}
+.amount {
+  color: #2f2f2f;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.symbol {
+  position: relative;
+  top: 10%;
+  text-decoration: line-through;
+}
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid pink; */
+}
+.money-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  /* border: 1px solid yellow; */
+}
+.book-button {
+  background-color: #008dd9;
+  color: white;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  border-radius: 5%;
+  border-width: 0px;
+  padding: 4%;
+}

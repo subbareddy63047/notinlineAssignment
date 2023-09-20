@@ -1,0 +1,141 @@
+/* Write your CSS here */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+  height: 90%;
+  /* border: 1px solid red; */
+}
+.logo-image {
+  width: 20%;
+  height: 90%;
+}
+.logo-heading {
+  color: gray;
+  font-family: 'roboto';
+  font-size: 170%;
+  font-weight: bold;
+}
+.in {
+  color: #008dd9;
+  font-family: 'roboto';
+  font-size: 110%;
+  font-weight: bold;
+}
+.options-container {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  align-items: center;
+  height: 80%;
+  /* border: 1px solid red; */
+  font-family: 'roboto';
+  color: #000000;
+  text-decoration: none;
+  font-size: 150%;
+  font-weight: 400;
+}
+@media screen and (min-width: 600px) and (max-width: 720px) {
+  .home {
+    font-size: 5%;
+  }
+  .logo-heading {
+    font-size: 30%;
+  }
+  .button {
+    font-size: 30%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .home {
+    font-size: 20%;
+  }
+  .logo-heading {
+    font-size: 70%;
+  }
+  .button {
+    font-size: 40%;
+  }
+}
+.home {
+  font-size: 50%;
+}
+.lab-tests {
+  color: #138ed1;
+}
+.last-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  height: 80%;
+  /* border: 1px solid yellow; */
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+}
+.button {
+  background-color: #00486c;
+  color: #ffffff;
+  border-radius: 5%;
+  border-width: 0px;
+  height: 100%;
+  width: 40%;
+  padding: 3%;
+  font-family: 'inter';
+  font-weight: 400;
+  font-size: 100%;
+  text-align: center;
+}
+.playstore-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 22%;
+  height: 80%;
+  background-color: #333333;
+  border-radius: 4px;
+  border-width: 0px;
+}
+.palystore-image {
+  width: 20%;
+  height: 100%;
+}
+.play-store {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  font-size: 100%;
+}
+.navbar-container {
+  display: none;
+}
+
+/* small device */
+@media screen and (max-width: 576px) {
+  .options-container {
+    display: none;
+  }
+  .last-container {
+    display: none;
+  }
+  .navbar-container {
+    display: flex;
+  }
+}
